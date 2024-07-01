@@ -1,0 +1,366 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 23 01:10:29 2024
+# Process ID: 2416
+# Current directory: D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.runs/synth_1
+# Command line: vivado.exe -log aes.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source aes.tcl
+# Log file: D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.runs/synth_1/aes.vds
+# Journal file: D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source aes.tcl -notrace
+Command: synth_design -top aes -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26264
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1161.527 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'aes' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes.v:41]
+	Parameter ADDR_NAME0 bound to: 8'b00000000 
+	Parameter ADDR_NAME1 bound to: 8'b00000001 
+	Parameter ADDR_VERSION bound to: 8'b00000010 
+	Parameter ADDR_CTRL bound to: 8'b00001000 
+	Parameter CTRL_INIT_BIT bound to: 0 - type: integer 
+	Parameter CTRL_NEXT_BIT bound to: 1 - type: integer 
+	Parameter ADDR_STATUS bound to: 8'b00001001 
+	Parameter STATUS_READY_BIT bound to: 0 - type: integer 
+	Parameter STATUS_VALID_BIT bound to: 1 - type: integer 
+	Parameter ADDR_CONFIG bound to: 8'b00001010 
+	Parameter CTRL_ENCDEC_BIT bound to: 0 - type: integer 
+	Parameter CTRL_KEYLEN_BIT bound to: 1 - type: integer 
+	Parameter ADDR_KEY0 bound to: 8'b00010000 
+	Parameter ADDR_KEY7 bound to: 8'b00010111 
+	Parameter ADDR_BLOCK0 bound to: 8'b00100000 
+	Parameter ADDR_BLOCK3 bound to: 8'b00100011 
+	Parameter ADDR_RESULT0 bound to: 8'b00110000 
+	Parameter ADDR_RESULT3 bound to: 8'b00110011 
+	Parameter CORE_NAME0 bound to: 1634038560 - type: integer 
+	Parameter CORE_NAME1 bound to: 538976288 - type: integer 
+	Parameter CORE_VERSION bound to: 808334896 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'aes_core' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_core.v:42]
+	Parameter CTRL_IDLE bound to: 2'b00 
+	Parameter CTRL_INIT bound to: 2'b01 
+	Parameter CTRL_NEXT bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'aes_encipher_block' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_encipher_block.v:43]
+	Parameter AES_128_BIT_KEY bound to: 1'b0 
+	Parameter AES_256_BIT_KEY bound to: 1'b1 
+	Parameter AES128_ROUNDS bound to: 4'b1010 
+	Parameter AES256_ROUNDS bound to: 4'b1110 
+	Parameter NO_UPDATE bound to: 3'b000 
+	Parameter INIT_UPDATE bound to: 3'b001 
+	Parameter SBOX_UPDATE bound to: 3'b010 
+	Parameter MAIN_UPDATE bound to: 3'b011 
+	Parameter FINAL_UPDATE bound to: 3'b100 
+	Parameter CTRL_IDLE bound to: 2'b00 
+	Parameter CTRL_INIT bound to: 2'b01 
+	Parameter CTRL_SBOX bound to: 2'b10 
+	Parameter CTRL_MAIN bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_encipher_block.v:423]
+INFO: [Synth 8-6155] done synthesizing module 'aes_encipher_block' (1#1) [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_encipher_block.v:43]
+INFO: [Synth 8-6157] synthesizing module 'aes_decipher_block' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_decipher_block.v:43]
+	Parameter AES_128_BIT_KEY bound to: 1'b0 
+	Parameter AES_256_BIT_KEY bound to: 1'b1 
+	Parameter AES128_ROUNDS bound to: 4'b1010 
+	Parameter AES256_ROUNDS bound to: 4'b1110 
+	Parameter NO_UPDATE bound to: 3'b000 
+	Parameter INIT_UPDATE bound to: 3'b001 
+	Parameter SBOX_UPDATE bound to: 3'b010 
+	Parameter MAIN_UPDATE bound to: 3'b011 
+	Parameter FINAL_UPDATE bound to: 3'b100 
+	Parameter CTRL_IDLE bound to: 2'b00 
+	Parameter CTRL_INIT bound to: 2'b01 
+	Parameter CTRL_SBOX bound to: 2'b10 
+	Parameter CTRL_MAIN bound to: 2'b11 
+INFO: [Synth 8-6157] synthesizing module 'aes_inv_sbox' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_inv_sbox.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'aes_inv_sbox' (2#1) [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_inv_sbox.v:40]
+INFO: [Synth 8-226] default block is never used [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_decipher_block.v:463]
+INFO: [Synth 8-6155] done synthesizing module 'aes_decipher_block' (3#1) [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_decipher_block.v:43]
+INFO: [Synth 8-6157] synthesizing module 'aes_key_mem' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_key_mem.v:41]
+	Parameter AES_128_BIT_KEY bound to: 1'b0 
+	Parameter AES_256_BIT_KEY bound to: 1'b1 
+	Parameter AES_128_NUM_ROUNDS bound to: 10 - type: integer 
+	Parameter AES_256_NUM_ROUNDS bound to: 14 - type: integer 
+	Parameter CTRL_IDLE bound to: 3'b000 
+	Parameter CTRL_INIT bound to: 3'b001 
+	Parameter CTRL_GENERATE bound to: 3'b010 
+	Parameter CTRL_DONE bound to: 3'b011 
+INFO: [Synth 8-226] default block is never used [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_key_mem.v:236]
+INFO: [Synth 8-6155] done synthesizing module 'aes_key_mem' (4#1) [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_key_mem.v:41]
+INFO: [Synth 8-6157] synthesizing module 'aes_sbox' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_sbox.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'aes_sbox' (5#1) [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_sbox.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'aes_core' (6#1) [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_core.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'aes' (7#1) [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes.v:41]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1161.527 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1161.527 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1161.527 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'enc_ctrl_reg_reg' in module 'aes_encipher_block'
+INFO: [Synth 8-802] inferred FSM for state register 'dec_ctrl_reg_reg' in module 'aes_decipher_block'
+INFO: [Synth 8-802] inferred FSM for state register 'key_mem_ctrl_reg_reg' in module 'aes_key_mem'
+INFO: [Synth 8-802] inferred FSM for state register 'aes_core_ctrl_reg_reg' in module 'aes_core'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               CTRL_IDLE |                               00 |                               00
+               CTRL_INIT |                               01 |                               01
+               CTRL_SBOX |                               10 |                               10
+               CTRL_MAIN |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'enc_ctrl_reg_reg' using encoding 'sequential' in module 'aes_encipher_block'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               CTRL_IDLE |                               00 |                               00
+               CTRL_INIT |                               01 |                               01
+               CTRL_SBOX |                               10 |                               10
+               CTRL_MAIN |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'dec_ctrl_reg_reg' using encoding 'sequential' in module 'aes_decipher_block'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               CTRL_IDLE |                             0001 |                              000
+               CTRL_INIT |                             0010 |                              001
+           CTRL_GENERATE |                             0100 |                              010
+               CTRL_DONE |                             1000 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'key_mem_ctrl_reg_reg' using encoding 'one-hot' in module 'aes_key_mem'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               CTRL_IDLE |                               00 |                               00
+               CTRL_INIT |                               01 |                               01
+               CTRL_NEXT |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'aes_core_ctrl_reg_reg' using encoding 'sequential' in module 'aes_core'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1161.527 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 2     
++---XORs : 
+	   2 Input    128 Bit         XORs := 5     
+	   2 Input     32 Bit         XORs := 14    
+	   3 Input     32 Bit         XORs := 2     
+	   4 Input     32 Bit         XORs := 1     
+	   2 Input      8 Bit         XORs := 91    
+	   4 Input      8 Bit         XORs := 12    
+	   5 Input      8 Bit         XORs := 4     
+	   8 Input      8 Bit         XORs := 8     
+	   9 Input      8 Bit         XORs := 8     
++---Registers : 
+	              128 Bit    Registers := 18    
+	               32 Bit    Registers := 20    
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input  128 Bit        Muxes := 12    
+	   4 Input   32 Bit        Muxes := 2     
+	   5 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 9     
+	   6 Input   32 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 8     
+	   3 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 12    
+	   4 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 43    
+	   4 Input    1 Bit        Muxes := 14    
+	   8 Input    1 Bit        Muxes := 8     
+	   3 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:47 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++-------------+----------------+---------------+----------------+
+|Module Name  | RTL Object     | Depth x Width | Implemented As | 
++-------------+----------------+---------------+----------------+
+|aes_inv_sbox | inv_sbox       | 256x8         | LUT            | 
+|aes_inv_sbox | inv_sbox       | 256x8         | LUT            | 
+|aes_inv_sbox | inv_sbox       | 256x8         | LUT            | 
+|aes_inv_sbox | inv_sbox       | 256x8         | LUT            | 
+|aes_sbox     | sbox           | 256x8         | LUT            | 
+|aes_sbox     | sbox           | 256x8         | LUT            | 
+|aes_sbox     | sbox           | 256x8         | LUT            | 
+|aes_sbox     | sbox           | 256x8         | LUT            | 
+|aes_inv_sbox | inv_sbox       | 256x8         | LUT            | 
+|aes_inv_sbox | inv_sbox       | 256x8         | LUT            | 
+|aes_inv_sbox | inv_sbox       | 256x8         | LUT            | 
+|aes_core     | sbox_inst/sbox | 256x8         | LUT            | 
+|aes_core     | sbox_inst/sbox | 256x8         | LUT            | 
+|aes_core     | sbox_inst/sbox | 256x8         | LUT            | 
+|aes_core     | sbox_inst/sbox | 256x8         | LUT            | 
++-------------+----------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:50 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:53 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:01:00 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:01:00 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:01:00 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:01:00 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:01:01 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:01:01 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |   353|
+|4     |LUT3 |   721|
+|5     |LUT4 |   428|
+|6     |LUT5 |   534|
+|7     |LUT6 |  1892|
+|8     |FDCE |  2986|
+|9     |FDPE |     4|
+|10    |IBUF |    44|
+|11    |OBUF |    32|
++------+-----+------+
+
+Report Instance Areas: 
++------+--------------------+-------------------+------+
+|      |Instance            |Module             |Cells |
++------+--------------------+-------------------+------+
+|1     |top                 |                   |  6996|
+|2     |  core              |aes_core           |  6306|
+|3     |    dec_block       |aes_decipher_block |   675|
+|4     |      inv_sbox_inst |aes_inv_sbox       |    32|
+|5     |    enc_block       |aes_encipher_block |  1080|
+|6     |    keymem          |aes_key_mem        |  4515|
+|7     |    sbox_inst       |aes_sbox           |    32|
++------+--------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:01:01 . Memory (MB): peak = 1412.520 ; gain = 250.992
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:01:01 . Memory (MB): peak = 1412.520 ; gain = 250.992
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:01:01 . Memory (MB): peak = 1412.520 ; gain = 250.992
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1412.520 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1412.520 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.520 ; gain = 250.992
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.runs/synth_1/aes.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file aes_utilization_synth.rpt -pb aes_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu May 23 01:11:48 2024...

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Gost89_OFB.srcs/sources_1/new/gost89_ofb_decrypt.v" \
+"../../../../Gost89_OFB.srcs/sources_1/new/gost89_ofb_encrypt.v" \
+"../../../../code/gost89_round.v" \
+"../../../../code/gost89_sbox.v" \
+"../../../../Gost89_OFB.srcs/sim_1/new/gost89_ofb_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

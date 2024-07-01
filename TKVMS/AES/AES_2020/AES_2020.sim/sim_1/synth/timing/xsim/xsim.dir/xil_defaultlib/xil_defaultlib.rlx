@@ -1,0 +1,6 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v,1717150668,verilog,,D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v,,aes;aes_core;aes_decipher_block;aes_encipher_block;aes_inv_sbox;aes_key_mem;aes_sbox;glbl,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v,1675883699,verilog,,,,tb_aes,,,,,,,,

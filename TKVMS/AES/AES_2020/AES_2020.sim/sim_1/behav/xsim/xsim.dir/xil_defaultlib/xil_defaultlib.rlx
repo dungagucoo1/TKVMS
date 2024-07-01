@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes.v,1675883699,verilog,,D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_core.v,,aes,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_core.v,1675883699,verilog,,D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_decipher_block.v,,aes_core,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_decipher_block.v,1675883699,verilog,,D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_encipher_block.v,,aes_decipher_block,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_encipher_block.v,1675883699,verilog,,D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_inv_sbox.v,,aes_encipher_block,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_inv_sbox.v,1675883699,verilog,,D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_key_mem.v,,aes_inv_sbox,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_key_mem.v,1675883699,verilog,,D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_sbox.v,,aes_key_mem,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_sbox.v,1675883699,verilog,,D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v,,aes_sbox,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v,1717150632,verilog,,,,tb_aes,,,,,,,,

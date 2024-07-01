@@ -1,0 +1,434 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 31 17:14:10 2024
+# Process ID: 21592
+# Current directory: D:/Vivado/Bao cao/TKVMS/AES/AES_2020
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22680 D:\Vivado\Bao cao\TKVMS\AES\AES_2020\AES_2020.xpr
+# Log file: D:/Vivado/Bao cao/TKVMS/AES/AES_2020/vivado.log
+# Journal file: D:/Vivado/Bao cao/TKVMS/AES/AES_2020\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1161.793 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type timing
+Command: launch_simulation -mode post-synthesis -type timing
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticsg324-1L
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1395.691 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1485.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1636.180 ; gain = 474.387
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode timesim -nolib -sdf_anno true -force -file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v"
+write_verilog: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1698.648 ; gain = 45.559
+INFO: [SIM-utils-27] Writing SDF file...
+INFO: [SIM-utils-28] write_sdf -mode timesim -process_corner slow -force -file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.sdf"
+write_sdf: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2074.188 ; gain = 375.539
+INFO: [SIM-utils-36] Netlist generated:D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v
+INFO: [SIM-utils-37] SDF generated:D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_aes' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+"xvlog --incr --relax -prj tb_aes_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes
+INFO: [VRFC 10-311] analyzing module aes_core
+INFO: [VRFC 10-311] analyzing module aes_decipher_block
+INFO: [VRFC 10-311] analyzing module aes_encipher_block
+INFO: [VRFC 10-311] analyzing module aes_inv_sbox
+INFO: [VRFC 10-311] analyzing module aes_key_mem
+INFO: [VRFC 10-311] analyzing module aes_sbox
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_aes
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+"xelab -wto e668204f1fa446158ffed4a3ceb00191 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_aes_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_aes xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e668204f1fa446158ffed4a3ceb00191 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_aes_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_aes xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'init_reg' is not declared under prefix 'dut' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v:168]
+ERROR: [VRFC 10-2991] 'encdec_reg' is not declared under prefix 'dut' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v:169]
+ERROR: [VRFC 10-2991] 'block_reg' is not declared under prefix 'dut' [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v:173]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 2079.773 ; gain = 917.980
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation -mode post-synthesis -type timing
+Command: launch_simulation -mode post-synthesis -type timing
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode timesim -nolib -sdf_anno true -force -file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v"
+INFO: [SIM-utils-27] Writing SDF file...
+INFO: [SIM-utils-28] write_sdf -mode timesim -process_corner slow -force -file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.sdf"
+INFO: [SIM-utils-36] Netlist generated:D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v
+INFO: [SIM-utils-37] SDF generated:D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_aes' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+"xvlog --incr --relax -prj tb_aes_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes
+INFO: [VRFC 10-311] analyzing module aes_core
+INFO: [VRFC 10-311] analyzing module aes_decipher_block
+INFO: [VRFC 10-311] analyzing module aes_encipher_block
+INFO: [VRFC 10-311] analyzing module aes_inv_sbox
+INFO: [VRFC 10-311] analyzing module aes_key_mem
+INFO: [VRFC 10-311] analyzing module aes_sbox
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_aes
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+"xelab -wto e668204f1fa446158ffed4a3ceb00191 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_aes_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_aes xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e668204f1fa446158ffed4a3ceb00191 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_aes_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_aes xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2989] 'dump_dut_state' is not declared [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v:153]
+ERROR: [VRFC 10-2989] 'dump_dut_state' is not declared [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v:380]
+ERROR: [VRFC 10-2989] 'dump_dut_state' is not declared [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v:553]
+ERROR: [VRFC 10-2989] 'dump_dut_state' is not declared [D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v:555]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2114.938 ; gain = 33.148
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_aes' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_aes_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_decipher_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_decipher_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_encipher_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_encipher_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_inv_sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_inv_sbox
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_key_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_key_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_sbox
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_aes
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/behav/xsim'
+"xelab -wto e668204f1fa446158ffed4a3ceb00191 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_aes_behav xil_defaultlib.tb_aes xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e668204f1fa446158ffed4a3ceb00191 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_aes_behav xil_defaultlib.tb_aes xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.aes_encipher_block
+Compiling module xil_defaultlib.aes_inv_sbox
+Compiling module xil_defaultlib.aes_decipher_block
+Compiling module xil_defaultlib.aes_key_mem
+Compiling module xil_defaultlib.aes_sbox
+Compiling module xil_defaultlib.aes_core
+Compiling module xil_defaultlib.aes
+Compiling module xil_defaultlib.tb_aes
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_aes_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Vivado/Bao -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "D:/Vivado/Bao" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Fri May 31 17:17:20 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_aes_behav -key {Behavioral:sim_1:Functional:tb_aes} -tclbatch {tb_aes.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_aes.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+   -= Testbench for AES started =-
+    ==============================
+
+*** Toggle reset.
+
+ECB 128 bit key tests
+---------------------
+*** TC 1 ECB mode test started.
+*** TC 1 successful.
+
+*** TC 2 ECB mode test started.
+*** TC 2 successful.
+
+*** TC 3 ECB mode test started.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_aes_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 2158.926 ; gain = 43.988
+run 10 us
+*** TC 3 successful.
+
+*** TC 4 ECB mode test started.
+*** TC 4 successful.
+
+*** TC 5 ECB mode test started.
+*** TC 5 successful.
+
+*** TC 6 ECB mode test started.
+*** TC 6 successful.
+
+*** TC 7 ECB mode test started.
+*** TC 7 successful.
+
+*** TC 8 ECB mode test started.
+*** TC 8 successful.
+
+*** TC 9 ECB mode test started.
+*** TC 9 successful.
+
+*** TC 10 ECB mode test started.
+*** TC 10 successful.
+
+
+ECB 256 bit key tests
+---------------------
+*** TC 16 ECB mode test started.
+*** TC 16 successful.
+
+*** TC 17 ECB mode test started.
+*** TC 17 successful.
+
+*** TC 18 ECB mode test started.
+*** TC 18 successful.
+
+*** TC 19 ECB mode test started.
+*** TC 19 successful.
+
+*** TC 20 ECB mode test started.
+*** TC 20 successful.
+
+*** TC 21 ECB mode test started.
+*** TC 21 successful.
+
+*** TC 22 ECB mode test started.
+*** TC 22 successful.
+
+*** TC 23 ECB mode test started.
+*** TC 23 successful.
+
+*** TC 24 ECB mode test started.
+*** TC 24 successful.
+
+*** TC 25 ECB mode test started.
+*** TC 25 successful.
+
+*** All 20 test cases completed successfully
+
+*** AES simulation done. ***
+$finish called at time : 9444 ns : File "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v" Line 563
+launch_simulation -mode post-synthesis -type timing
+Command: launch_simulation -mode post-synthesis -type timing
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode timesim -nolib -sdf_anno true -force -file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v"
+INFO: [SIM-utils-27] Writing SDF file...
+INFO: [SIM-utils-28] write_sdf -mode timesim -process_corner slow -force -file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.sdf"
+INFO: [SIM-utils-36] Netlist generated:D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v
+INFO: [SIM-utils-37] SDF generated:D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_aes' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+"xvlog --incr --relax -prj tb_aes_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim/tb_aes_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes
+INFO: [VRFC 10-311] analyzing module aes_core
+INFO: [VRFC 10-311] analyzing module aes_decipher_block
+INFO: [VRFC 10-311] analyzing module aes_encipher_block
+INFO: [VRFC 10-311] analyzing module aes_inv_sbox
+INFO: [VRFC 10-311] analyzing module aes_key_mem
+INFO: [VRFC 10-311] analyzing module aes_sbox
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_aes
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+"xelab -wto e668204f1fa446158ffed4a3ceb00191 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_aes_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_aes xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e668204f1fa446158ffed4a3ceb00191 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_aes_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_aes xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "tb_aes_time_synth.sdf", for root module "tb_aes/dut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "tb_aes_time_synth.sdf", for root module "tb_aes/dut".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.FDCE_default
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.aes_inv_sbox
+Compiling module simprims_ver.FDPE_default
+Compiling module xil_defaultlib.aes_decipher_block
+Compiling module xil_defaultlib.aes_encipher_block
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1(INIT=2'b01)
+Compiling module xil_defaultlib.aes_key_mem
+Compiling module xil_defaultlib.aes_sbox
+Compiling module xil_defaultlib.aes_core
+Compiling module simprims_ver.OBUF
+Compiling module xil_defaultlib.aes
+Compiling module xil_defaultlib.tb_aes
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_aes_time_synth
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Vivado/Bao -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "D:/Vivado/Bao" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Fri May 31 17:22:01 2024...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:04:09 . Memory (MB): peak = 2179.957 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '250' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.sim/sim_1/synth/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_aes_time_synth -key {Post-Synthesis:sim_1:Timing:tb_aes} -tclbatch {tb_aes.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_aes.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+   -= Testbench for AES started =-
+    ==============================
+
+*** Toggle reset.
+
+ECB 128 bit key tests
+---------------------
+*** TC 1 ECB mode test started.
+*** ERROR: TC 1 NOT successful.
+Expected: 0x3ad77bb40d7a3660a89ecaf32466ef97
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 2 ECB mode test started.
+*** ERROR: TC 2 NOT successful.
+Expected: 0xf5d3d58503b9699de785895a96fdbaaf
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 3 ECB mode test started.
+*** ERROR: TC 3 NOT successful.
+Expected: 0x43b1cd7f598ece23881b00e3ed030688
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 4 ECB mode test started.
+*** ERROR: TC 4 NOT successful.
+Expected: 0x7b0c785e27e8ad3f8223207104725dd4
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 5 ECB mode test started.
+*** ERROR: TC 5 NOT successful.
+Expected: 0x6bc1bee22e409f96e93d7e117393172a
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 6 ECB mode test started.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:19 ; elapsed = 00:01:04 . Memory (MB): peak = 2420.512 ; gain = 240.555
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:22 ; elapsed = 00:01:07 . Memory (MB): peak = 2420.512 ; gain = 240.555
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:26 ; elapsed = 00:05:22 . Memory (MB): peak = 2420.512 ; gain = 248.203
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+run 10 us
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2420.512 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 31 17:23:53 2024...

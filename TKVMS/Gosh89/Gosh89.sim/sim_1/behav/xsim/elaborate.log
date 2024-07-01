@@ -1,0 +1,98 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 21885ce368ff4a6e99588cbdcf299678 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot gost89_ecb_tb_behav xil_defaultlib.gost89_ecb_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v" Line 1. Module gost89_ecb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v" Line 1. Module gost89_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v" Line 1. Module gost89_ecb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v" Line 1. Module gost89_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v" Line 121. Module gost89_ecb_encrypt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v" Line 1. Module gost89_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v" Line 203. Module gost89_ecb_decrypt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v" Line 1. Module gost89_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v" Line 1. Module gost89_ecb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v" Line 1. Module gost89_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v" Line 1. Module gost89_ecb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v" Line 1. Module gost89_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v" Line 121. Module gost89_ecb_encrypt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v" Line 1. Module gost89_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v" Line 203. Module gost89_ecb_decrypt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v" Line 1. Module gost89_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v" Line 1. Module gost89_sbox doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gost89_sbox
+Compiling module xil_defaultlib.gost89_round
+Compiling module xil_defaultlib.gost89_ecb
+Compiling module xil_defaultlib.gost89_ecb_encrypt
+Compiling module xil_defaultlib.gost89_ecb_decrypt
+Compiling module xil_defaultlib.gost89_ecb_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot gost89_ecb_tb_behav

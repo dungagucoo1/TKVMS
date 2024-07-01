@@ -1,0 +1,76 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+   -= Testbench for AES started =-
+    ==============================
+
+*** Toggle reset.
+
+ECB 128 bit key tests
+---------------------
+*** TC 1 ECB mode test started.
+*** TC 1 successful.
+
+*** TC 2 ECB mode test started.
+*** TC 2 successful.
+
+*** TC 3 ECB mode test started.
+*** TC 3 successful.
+
+*** TC 4 ECB mode test started.
+*** TC 4 successful.
+
+*** TC 5 ECB mode test started.
+*** TC 5 successful.
+
+*** TC 6 ECB mode test started.
+*** TC 6 successful.
+
+*** TC 7 ECB mode test started.
+*** TC 7 successful.
+
+*** TC 8 ECB mode test started.
+*** TC 8 successful.
+
+*** TC 9 ECB mode test started.
+*** TC 9 successful.
+
+*** TC 10 ECB mode test started.
+*** TC 10 successful.
+
+
+ECB 256 bit key tests
+---------------------
+*** TC 16 ECB mode test started.
+*** TC 16 successful.
+
+*** TC 17 ECB mode test started.
+*** TC 17 successful.
+
+*** TC 18 ECB mode test started.
+*** TC 18 successful.
+
+*** TC 19 ECB mode test started.
+*** TC 19 successful.
+
+*** TC 20 ECB mode test started.
+*** TC 20 successful.
+
+*** TC 21 ECB mode test started.
+*** TC 21 successful.
+
+*** TC 22 ECB mode test started.
+*** TC 22 successful.
+
+*** TC 23 ECB mode test started.
+*** TC 23 successful.
+
+*** TC 24 ECB mode test started.
+*** TC 24 successful.
+
+*** TC 25 ECB mode test started.
+*** TC 25 successful.
+
+*** All 20 test cases completed successfully
+
+*** AES simulation done. ***
+$finish called at time : 9444 ns : File "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v" Line 563

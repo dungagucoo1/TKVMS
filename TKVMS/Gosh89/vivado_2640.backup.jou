@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Jun 29 13:55:09 2024
+# Process ID: 2640
+# Current directory: D:/Vivado/Bao cao/TKVMS/Gosh89
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16800 D:\Vivado\Bao cao\TKVMS\Gosh89\Gosh89.xpr
+# Log file: D:/Vivado/Bao cao/TKVMS/Gosh89/vivado.log
+# Journal file: D:/Vivado/Bao cao/TKVMS/Gosh89\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source gost89_ecb_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/gost89_ecb_tb/ecb_encrypt}} 
+relaunch_sim
+relaunch_sim

@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_decipher_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_decipher_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_encipher_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_encipher_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_inv_sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_inv_sbox
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_key_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_key_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/rtl/aes_sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_sbox
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/Bao cao/TKVMS/AES/aes-master/aes-master/src/tb/tb_aes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_aes

@@ -1,0 +1,35 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+   -= Testbench for AES started =-
+    ==============================
+
+*** Toggle reset.
+
+ECB 128 bit key tests
+---------------------
+*** TC 1 ECB mode test started.
+*** ERROR: TC 1 NOT successful.
+Expected: 0x3ad77bb40d7a3660a89ecaf32466ef97
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 2 ECB mode test started.
+*** ERROR: TC 2 NOT successful.
+Expected: 0xf5d3d58503b9699de785895a96fdbaaf
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 3 ECB mode test started.
+*** ERROR: TC 3 NOT successful.
+Expected: 0x43b1cd7f598ece23881b00e3ed030688
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 4 ECB mode test started.
+*** ERROR: TC 4 NOT successful.
+Expected: 0x7b0c785e27e8ad3f8223207104725dd4
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 5 ECB mode test started.
+*** ERROR: TC 5 NOT successful.
+Expected: 0x6bc1bee22e409f96e93d7e117393172a
+Got:      0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*** TC 6 ECB mode test started.

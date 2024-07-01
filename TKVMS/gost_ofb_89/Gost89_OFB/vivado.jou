@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Jun 29 21:30:21 2024
+# Process ID: 14740
+# Current directory: D:/Vivado/Bao cao/TKVMS/Gost89_OFB
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8288 D:\Vivado\Bao cao\TKVMS\Gost89_OFB\Gost89_OFB.xpr
+# Log file: D:/Vivado/Bao cao/TKVMS/Gost89_OFB/vivado.log
+# Journal file: D:/Vivado/Bao cao/TKVMS/Gost89_OFB\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/Bao cao/TKVMS/Gost89_OFB/Gost89_OFB.xpr}
+launch_simulation
+source gost89_ofb_tb.tcl
+current_wave_config {}
+add_wave {{/gost89_ofb_tb/ecb_decrypt}} 
+update_compile_order -fileset sources_1
+relaunch_sim

@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Jun 29 18:48:43 2024
+# Process ID: 20192
+# Current directory: D:/Vivado/Bao cao/TKVMS/Gost89_OFB
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8268 D:\Vivado\Bao cao\TKVMS\Gost89_OFB\Gost89_OFB.xpr
+# Log file: D:/Vivado/Bao cao/TKVMS/Gost89_OFB/vivado.log
+# Journal file: D:/Vivado/Bao cao/TKVMS/Gost89_OFB\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/Bao cao/TKVMS/Gost89_OFB/Gost89_OFB.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source gost89_ofb_encrypt_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/gost89_ofb_encrypt_tb/ecb_encrypt}} 
+current_wave_config {Untitled 1}
+add_wave {{/gost89_ofb_encrypt_tb/ecb_encrypt/rnd}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top gost89_ofb_encrypt [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation -mode post-synthesis -type functional
+source gost89_ofb_encrypt_tb.tcl
+run 10 us
+run all
+relaunch_sim
+run all
+close_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+close_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top gost89_ofb_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files {{D:/Vivado/Bao cao/TKVMS/Gost89_OFB/code/gost89_ecb.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/Vivado/Bao cao/TKVMS/Gost89_OFB/code/gost89_ecb.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+relaunch_sim
+close_sim
+launch_simulation
+source gost89_ofb_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/gost89_ofb_tb/ecb_decrypt/rnd}} 
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/gost89_ofb_tb/ecb_decrypt/rnd}} 
+close_sim
+launch_simulation
+source gost89_ofb_tb.tcl
+current_wave_config {Untitled 4}
+add_wave {{/gost89_ofb_tb/ecb_decrypt}} 
+relaunch_sim

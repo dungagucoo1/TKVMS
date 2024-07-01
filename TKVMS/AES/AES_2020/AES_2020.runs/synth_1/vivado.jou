@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 23 01:10:29 2024
+# Process ID: 2416
+# Current directory: D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.runs/synth_1
+# Command line: vivado.exe -log aes.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source aes.tcl
+# Log file: D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.runs/synth_1/aes.vds
+# Journal file: D:/Vivado/Bao cao/TKVMS/AES/AES_2020/AES_2020.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source aes.tcl -notrace

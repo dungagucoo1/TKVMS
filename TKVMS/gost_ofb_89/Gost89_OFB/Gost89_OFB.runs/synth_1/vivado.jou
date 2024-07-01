@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Jun 29 20:48:26 2024
+# Process ID: 14076
+# Current directory: D:/Vivado/Bao cao/TKVMS/Gost89_OFB/Gost89_OFB.runs/synth_1
+# Command line: vivado.exe -log gost89_ofb_encrypt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gost89_ofb_encrypt.tcl
+# Log file: D:/Vivado/Bao cao/TKVMS/Gost89_OFB/Gost89_OFB.runs/synth_1/gost89_ofb_encrypt.vds
+# Journal file: D:/Vivado/Bao cao/TKVMS/Gost89_OFB/Gost89_OFB.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source gost89_ofb_encrypt.tcl -notrace

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sim_1/new/gost89_ecb_tb.v,1719668076,verilog,,,,gost89_ecb_tb,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_ecb.v,1719566787,verilog,,D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v,,gost89_ecb;gost89_ecb_decrypt;gost89_ecb_encrypt,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_round.v,1719566901,verilog,,D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v,,gost89_round,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sources_1/new/gost89_sbox.v,1719567141,verilog,,D:/Vivado/Bao cao/TKVMS/Gosh89/Gosh89.srcs/sim_1/new/gost89_ecb_tb.v,,gost89_sbox,,,,,,,,
