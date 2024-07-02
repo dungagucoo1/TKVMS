@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul  2 12:53:51 2024
+# Process ID: 10564
+# Current directory: D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18764 D:\Vivado\Bao cao\TKVMS\TKVMS\TKVMS_Present\TKVMS_Present.xpr
+# Log file: D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/vivado.log
+# Journal file: D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Vivado/VHDL ver2020.2/TKVMS_Present' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.gen/sources_1', nor could it be found using path 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1136.871 ; gain = 0.000
+update_compile_order -fileset sources_1

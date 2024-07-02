@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+,,,,,,PRESENT_DECRYPT_TB,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/PRESENT_ENCRYPT.sv,1719910004,systemVerilog,,D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/p_box.sv,,PRESENT_ENCRYPT,,uvm,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/p_box.sv,1719909307,systemVerilog,,D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/present_decrypt.sv,,p_box,,uvm,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/present_decrypt.sv,1719910362,systemVerilog,,D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/s_box.sv,,PRESENT_DECRYPT,,uvm,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/s_box.sv,1719909301,systemVerilog,,D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sim_1/new/PRESENT_DECRYPT_TB.sv,,s_box,,uvm,,,,,,

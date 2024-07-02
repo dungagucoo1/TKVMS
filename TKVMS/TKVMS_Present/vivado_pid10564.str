@@ -1,0 +1,123 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 10564
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Jul 02 12:54:21 ICT 2024
+Time zone: 	Indochina Time (Asia/Bangkok)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	DUC DUNG
+User home directory: C:/Users/DUC DUNG
+User working directory: D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/DUC DUNG/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/DUC DUNG/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/DUC DUNG/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/vivado.log
+Vivado journal file location: 	D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/vivado.jou
+Engine tmp dir: 	D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/.Xil/Vivado-10564-DESKTOP-GLV9KF3
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_SDK: C:/Xilinx/Vitis/2020.2
+XILINX_VITIS: C:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,101 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 81 MB (+82059kb) [00:00:11]
+// [Engine Memory]: 1,101 MB (+1002990kb) [00:00:11]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\Vivado\Bao cao\TKVMS\TKVMS\TKVMS_Present\TKVMS_Present.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,101 MB. GUI used memory: 55 MB. Current time: 7/2/24, 12:54:22 PM ICT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Vivado/VHDL ver2020.2/TKVMS_Present' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+8628kb) [00:00:23]
+// [GUI Memory]: 106 MB (+9054kb) [00:00:26]
+// [GUI Memory]: 112 MB (+174kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  6288 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1136.871 ; gain = 0.000 
+// Project name: TKVMS_Present; location: D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present; part: xc7a35ticsg324-1L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 127 MB (+10218kb) [00:00:35]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 338 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRESENT_DECRYPT (present_decrypt.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRESENT_DECRYPT (present_decrypt.v), UPBOX : PRESENT_ENCRYPT_PBOX (present_encrypt_pbox.v)]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 205ms to process. Increasing delay to 2000 ms.

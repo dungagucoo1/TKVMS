@@ -2,12 +2,10 @@
 2020.2
 Nov 18 2020
 09:47:47
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_decrypt_tb.v,1718015508,verilog,,,,PRESENT_DECRYPT_TB,,,,,,,,
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v,1718007911,verilog,,,,PRESENT_ENCRYPT_TB,,,,,,,,
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/PRESENT_DECRYPT_PBOX.v,1717986759,verilog,,D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/PRESENT_DECRYPT_SBOX.v,,PRESENT_DECRYPT_PBOX,,,,,,,,
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/PRESENT_DECRYPT_SBOX.v,1717988016,verilog,,D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_decrypt.v,,PRESENT_DECRYPT_SBOX,,,,,,,,
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_decrypt.v,1718015513,verilog,,D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v,,PRESENT_DECRYPT,,,,,,,,
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt.v,1718013290,verilog,,D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v,,PRESENT_ENCRYPT,,,,,,,,
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v,1717937072,verilog,,D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v,,PRESENT_ENCRYPT_PBOX,,,,,,,,
-D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v,1717937072,verilog,,D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v,,PRESENT_ENCRYPT_SBOX,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_decrypt_tb.v,1718015508,verilog,,,,PRESENT_DECRYPT_TB,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v,1718007911,verilog,,,,PRESENT_ENCRYPT_TB,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_decrypt.v,1718015513,verilog,,D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v,,PRESENT_DECRYPT,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt.v,1718013290,verilog,,D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v,,PRESENT_ENCRYPT,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v,1717937072,verilog,,D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v,,PRESENT_ENCRYPT_PBOX,,,,,,,,
+D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v,1717937072,verilog,,D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_decrypt_tb.v,,PRESENT_ENCRYPT_SBOX,,,,,,,,

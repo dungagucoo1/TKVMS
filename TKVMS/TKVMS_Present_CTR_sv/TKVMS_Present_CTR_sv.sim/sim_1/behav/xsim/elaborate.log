@@ -1,0 +1,20 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 6b6030d64ed04197b4b1ad07a00038c9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot PRESENT_DECRYPT_TB_behav xil_defaultlib.PRESENT_DECRYPT_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/present_decrypt.sv" Line 1. Module PRESENT_DECRYPT_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/p_box.sv" Line 2. Module p_box doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/present_decrypt.sv" Line 1. Module PRESENT_DECRYPT_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/Bao cao/TKVMS/TKVMS/TKVMS_Present_CTR_sv/TKVMS_Present_CTR_sv.srcs/sources_1/new/p_box.sv" Line 2. Module p_box doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s_box
+Compiling module xil_defaultlib.p_box
+Compiling module xil_defaultlib.PRESENT_DECRYPT_default
+Compiling module xil_defaultlib.PRESENT_DECRYPT_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PRESENT_DECRYPT_TB_behav
