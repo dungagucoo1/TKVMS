@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 10 00:48:04 2024
+# Process ID: 28204
+# Current directory: D:/Vivado/VHDL ver2020.2/TKVMS_Present
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27096 D:\Vivado\VHDL ver2020.2\TKVMS_Present\TKVMS_Present.xpr
+# Log file: D:/Vivado/VHDL ver2020.2/TKVMS_Present/vivado.log
+# Journal file: D:/Vivado/VHDL ver2020.2/TKVMS_Present\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source PRESENT_DECRYPT_TB.tcl
+current_wave_config {Untitled 1}
+add_wave {{/PRESENT_DECRYPT_TB/dut}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"PRESENT_ENCRYPT_TB_time_synth.v" \
+"C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt.v" \
+"C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_pbox.v" \
+"C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_sbox.v" \
+"C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_tb.v" \
+
+# Do not sort compile order
+nosort

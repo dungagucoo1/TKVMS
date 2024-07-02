@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul  2 12:34:40 2024
+# Process ID: 20832
+# Current directory: D:/Vivado/VHDL ver2020.2/TKVMS_Present
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6040 D:\Vivado\VHDL ver2020.2\TKVMS_Present\TKVMS_Present.xpr
+# Log file: D:/Vivado/VHDL ver2020.2/TKVMS_Present/vivado.log
+# Journal file: D:/Vivado/VHDL ver2020.2/TKVMS_Present\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.xpr}
+update_compile_order -fileset sources_1
+update_files -from_files {{D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v}} -to_files {{C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_pbox.v}} -filesets [get_filesets *]
+update_files -from_files {{D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v}} -to_files {{C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_sbox.v}} -filesets [get_filesets *]
+update_files -from_files {{D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt.v}} -to_files {{C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt.v}} -filesets [get_filesets *]
+update_files -from_files {{D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v}} -to_files {{C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_tb.v}} -filesets [get_filesets *]
+launch_simulation
+source PRESENT_DECRYPT_TB.tcl
+run 10 us
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top PRESENT_ENCRYPT_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source PRESENT_ENCRYPT_TB.tcl
+run 10 us
+close_sim

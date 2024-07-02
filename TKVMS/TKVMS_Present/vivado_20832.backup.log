@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul  2 12:34:40 2024
+# Process ID: 20832
+# Current directory: D:/Vivado/VHDL ver2020.2/TKVMS_Present
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6040 D:\Vivado\VHDL ver2020.2\TKVMS_Present\TKVMS_Present.xpr
+# Log file: D:/Vivado/VHDL ver2020.2/TKVMS_Present/vivado.log
+# Journal file: D:/Vivado/VHDL ver2020.2/TKVMS_Present\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1161.402 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_files -from_files {{D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v}} -to_files {{C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_pbox.v}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_pbox.v' with file 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v'.
+update_files -from_files {{D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v}} -to_files {{C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_sbox.v}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_sbox.v' with file 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v'.
+update_files -from_files {{D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt.v}} -to_files {{C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt.v}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt.v' with file 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt.v'.
+update_files -from_files {{D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v}} -to_files {{C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_tb.v}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/DUC DUNG/Downloads/PresentCryptoEngine-master/PresentCryptoEngine-master/present_encrypt_tb.v' with file 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'PRESENT_DECRYPT_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PRESENT_DECRYPT_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_decrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PRESENT_DECRYPT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PRESENT_ENCRYPT_PBOX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PRESENT_ENCRYPT_SBOX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_decrypt_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PRESENT_DECRYPT_TB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim'
+"xelab -wto cecaf38fb9ef4cb395a6fe21b1668067 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PRESENT_DECRYPT_TB_behav xil_defaultlib.PRESENT_DECRYPT_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto cecaf38fb9ef4cb395a6fe21b1668067 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PRESENT_DECRYPT_TB_behav xil_defaultlib.PRESENT_DECRYPT_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_decrypt.v" Line 4. Module PRESENT_DECRYPT_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_decrypt.v" Line 4. Module PRESENT_DECRYPT_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PRESENT_ENCRYPT_SBOX
+Compiling module xil_defaultlib.PRESENT_ENCRYPT_PBOX
+Compiling module xil_defaultlib.PRESENT_DECRYPT_default
+Compiling module xil_defaultlib.PRESENT_DECRYPT_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PRESENT_DECRYPT_TB_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Vivado/VHDL -notrace
+couldn't read file "D:/Vivado/VHDL": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Jul  2 12:46:58 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1161.402 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "PRESENT_DECRYPT_TB_behav -key {Behavioral:sim_1:Functional:PRESENT_DECRYPT_TB} -tclbatch {PRESENT_DECRYPT_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source PRESENT_DECRYPT_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'PRESENT_DECRYPT_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1182.910 ; gain = 21.508
+run 10 us
+$finish called at time : 6190 ns : File "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_decrypt_tb.v" Line 132
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1185.004 ; gain = 0.000
+set_property top PRESENT_ENCRYPT_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'PRESENT_ENCRYPT_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PRESENT_ENCRYPT_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PRESENT_ENCRYPT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PRESENT_ENCRYPT_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim'
+"xelab -wto cecaf38fb9ef4cb395a6fe21b1668067 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PRESENT_ENCRYPT_TB_behav xil_defaultlib.PRESENT_ENCRYPT_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto cecaf38fb9ef4cb395a6fe21b1668067 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PRESENT_ENCRYPT_TB_behav xil_defaultlib.PRESENT_ENCRYPT_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt.v" Line 4. Module PRESENT_ENCRYPT_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sources_1/new/present_encrypt.v" Line 4. Module PRESENT_ENCRYPT_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PRESENT_ENCRYPT_SBOX
+Compiling module xil_defaultlib.PRESENT_ENCRYPT_PBOX
+Compiling module xil_defaultlib.PRESENT_ENCRYPT_default
+Compiling module xil_defaultlib.PRESENT_ENCRYPT_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PRESENT_ENCRYPT_TB_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Vivado/VHDL -notrace
+couldn't read file "D:/Vivado/VHDL": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Jul  2 12:48:26 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "PRESENT_ENCRYPT_TB_behav -key {Behavioral:sim_1:Functional:PRESENT_ENCRYPT_TB} -tclbatch {PRESENT_ENCRYPT_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source PRESENT_ENCRYPT_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'PRESENT_ENCRYPT_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1197.383 ; gain = 12.379
+run 10 us
+$finish called at time : 6610 ns : File "D:/Vivado/VHDL ver2020.2/TKVMS_Present/TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v" Line 237
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  2 12:53:24 2024...

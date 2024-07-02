@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../TKVMS_Present.srcs/sources_1/new/present_encrypt.v" \
+"../../../../TKVMS_Present.srcs/sources_1/new/present_encrypt_pbox.v" \
+"../../../../TKVMS_Present.srcs/sources_1/new/present_encrypt_sbox.v" \
+"../../../../TKVMS_Present.srcs/sim_1/new/present_encrypt_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
