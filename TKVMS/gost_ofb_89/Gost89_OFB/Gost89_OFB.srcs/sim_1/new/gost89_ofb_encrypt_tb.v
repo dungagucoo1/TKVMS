@@ -17,13 +17,7 @@ module gost89_ofb_encrypt_tb;
 //  wire busy_d;
 
   gost89_ofb_encrypt
-    ecb_encrypt(clk, reset, load_data, load_IV,  key, in_e, IV, out_e, busy_e);
-
-/*
-ECB mode:
-d5a8a608f4f115b4 389eb44a391474c4 379e59c3c96bb2ab 3f38ae3b8f541361 
-d658a36b11cf46eb 7aea1ed18e604249 c35472c91cd78640 3b5834a000fba066 
-*/
+    ofb_encrypt(clk, reset, load_data, load_IV,  key, in_e, IV, out_e, busy_e);
 
   initial begin
     clk = 0;

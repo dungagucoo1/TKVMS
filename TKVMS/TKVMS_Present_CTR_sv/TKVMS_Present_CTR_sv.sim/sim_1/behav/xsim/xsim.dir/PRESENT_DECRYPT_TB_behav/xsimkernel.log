@@ -2,3 +2,6 @@ Running: xsim.dir/PRESENT_DECRYPT_TB_behav/xsimk.exe -simmode gui -wdb PRESENT_D
 Design successfully loaded
 Design Loading Memory Usage: 7328 KB (Peak: 7328 KB)
 Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 8080 KB (Peak: 8080 KB)
+Simulation CPU Usage: 93 ms

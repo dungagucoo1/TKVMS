@@ -3,7 +3,6 @@ module gost89_ofb_decrypt(
   input              reset,
   input              load_data,
   input              load_IV,
-//  input      [511:0] sbox,
   input      [255:0] key,
   input      [63:0]  in,
   input      [63:0]  IV,
